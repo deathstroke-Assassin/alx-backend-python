@@ -5,7 +5,7 @@ python annotations of t00.
 from typing import List, Union, Tuple
 
 
-def to_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     '''
     sum of inputs.
     '''
