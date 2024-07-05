@@ -5,8 +5,8 @@ python annotations of t00.
 from typing import List
 
 
-def sum_list(input_list: List[float]) -> float:
+def sum_mixed_list(mxd_lst: List[int, float]) -> float:
     '''
     sum of inputs.
     '''
-    return float(sum(input_list))
+    return float(sum(mxd_lst))
