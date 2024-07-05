@@ -2,11 +2,11 @@
 '''
 python annotations of t00.
 '''
-from typing import List, Union, Tuple, Collable
+from typing import List, Union, Tuple, Callable
 
 
-def make_multiplier(multiplier: float) -> Collable[[float], float]:
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
     '''
     sum of inputs.
     '''
-    return k: k * multiplier
+    return lambda k: k * multiplier
