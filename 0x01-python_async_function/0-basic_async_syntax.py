@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+'''task0 wait random with async'''
 import asyncio
 import random
 
